@@ -1,0 +1,133 @@
+/*changes background color*/
+body{
+    background-color:#383231; 
+}
+
+/*changes color of selected page on nav bar */
+.selected {
+    width: 800px;
+    background-color: maroon;
+    padding: 10px;
+}
+
+{box-sizing: border-box
+}
+
+/* Add padding to containers */
+.container {
+    padding: 0px;
+}
+
+/* input field email */
+input[type=text] {
+    width: 85%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+/* input field password */
+input[type=password] {
+    width: 78%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+/* input field repeat password */
+input[type=repeatpassword] {
+    width: 63.5%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #8b0000;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    position: fixed;
+    top: 82%;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: royalblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/*general styling of the form*/
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    height: 65%;
+    position: fixed;
+    left:23%; 
+    top:10%;
+
+}
+
+b{ color: #bc9360;
+}
+
+/* part of image styling*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* part of image styling*/
+img { 
+    width: 10%;
+    height: 10%;
+}
+
+/* styling  inside container signin*/
+p { 
+    background-color: #383231;
+    color:antiquewhite;
+}
+
+h1{ 
+    color:#bc9360;
+
+}
+
+.containersignin{ 
+    position: fixed;
+    top: 563.5px;
+    left: 41%;
+}
+
+

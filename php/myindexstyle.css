@@ -1,0 +1,65 @@
+/* styles background */
+body{
+    background-color: black;
+}
+
+/* cube image in center  */
+img { 
+    position: fixed;
+    left:20%;
+    top:22.5%;
+    height: 40%;
+}
+
+/*changes background color of selected page  */
+.selected {
+    width: 800px;
+    background-color: maroon;
+    padding: 10px;
+}
+
+/* Snakes and Ladders header*/
+h1 {
+    font: Roman;
+    text-align:left;
+    color: #838383;
+    font-size:60px;
+    font-style:normal;
+    font-stretch: ultra-condensed;
+    position:fixed;
+    left: 26%;
+    top:-30%:
+}   
+
+/* Play Now button */
+input[type=button1]{ 
+    background-color: #838383;
+    font-size: 40px;
+    color:antiquewhite; 
+    position:fixed;
+    text-align: center;
+    position: absolute;
+    border-radius: 100px;
+    border-color: black;
+    width: 14%;
+    top: 82%;
+    left:40%;
+}
+
+/* cursor hover on play now button */
+input[type=button1]:hover { 
+    color: firebrick; 
+    opacity: 90%;
+    border: 0%;
+}
+
+/* small descriptive paragraph */
+p{ 
+    color: #838383;
+    position:fixed;
+    left:34%;
+    top: 67%;
+    text-align: center;
+}
+
+

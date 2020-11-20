@@ -1,0 +1,48 @@
+
+.footer { 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #bc9360;
+    color: white;
+}
+
+.navigation {
+    text-align: center;
+    background-color: #bc9360;
+    padding: 10px;
+    margin-top: -0.5%;
+    top: 0%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+}
+
+/* styles the text in navigation bar*/
+.navigation a{ 
+    color:antiquewhite;
+    font-size:16px ;
+    padding:14px 16px ; 
+    text-decoration: none;
+}
+
+/* background color changes upon cursor hover*/
+.navigation a:hover { 
+    background-color: maroon;
+    color: antiquewhite;
+}
+
+a{
+    padding: 10px;
+    color: antiquewhite;    
+}
+
+/*changes color of selected page in nav bar */
+.selected {
+    width: 800px;
+    background-color: maroon;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,109 @@
+/* changes whole background color */
+body{
+    background-color:#383231; 
+
+}
+
+/*changes color of selected page on nav bar */ 
+.selected {
+    width: 800px;
+    background-color: maroon;
+    padding: 10px;
+}
+
+/* General styling of the login form*/
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    height: 60%;
+    position: fixed;
+    left:23%; 
+    top:10%;
+    text-decoration-color: antiquewhite;
+
+}
+
+/* styles input areas*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+/*syles email, password and login page*/
+b{ 
+    color: #bc9360;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+/*styles login button*/
+.buttonlogin {
+    color: antiquewhite;
+    position: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #8b0000;
+    width: 75px;
+    height:33px;
+    border: 100px;
+    border-color: black;
+}
+
+.buttoncancel {
+    color: antiquewhite;
+    position: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #bc9360;
+    width: 75px;
+    height:33px;
+    border: 100px;
+    border-color: black;
+
+}
+
+/* part of image styling*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* part of image styling*/
+img { 
+    width: 10%;
+    height: 10%;
+}
+
+/* styles Login*/ 
+h1 {
+    color:#bc9360;
+    position: fixed;
+    left: 24.25%;
+    top:23%;
+}
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: center;
+    padding-top: 16px;
+    color: black;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+
